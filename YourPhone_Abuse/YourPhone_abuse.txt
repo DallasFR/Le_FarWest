@@ -3,8 +3,6 @@
 Victim : YourPhone.exe
 Path : c:\Program Files\WindowsApps\Microsoft.YourPhone_1.22022.147.0_x64__8wekyb3d8bbwe\
 Exploitation : Dll Hijacking
-Needed : Local Admin
-
 Dll cible : YourPhone.dll
 Exported function : __declspec(dllexport) void RHBinder__ShimExeMain(){ Main(); }
 
